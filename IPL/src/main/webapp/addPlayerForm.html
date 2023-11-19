@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Add Player Form</title>
+</head>
+<body>
+	<form action="addPlayer" method="post">
+		<table style="background-color: lightgrey; margin: auto">
+
+			<tr>
+				<td>Select Team</td>
+				<td><label for="team">Choose a team:</label> <select
+					name="teams" id="team">
+						<option value="1">Chennai Super Kings</option>
+						<option value="2">Gujarat Titans</option>
+						<option value="3">Kolkata Knight Riders</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Enter First Name</td>
+				<td><input type="text" name="firstName" /></td>
+			</tr>
+			<tr>
+				<td>Enter Last Name</td>
+				<td><input type="text" name="lastName" /></td>
+			</tr>
+			<tr>
+				<td>Enter Date Of Birth</td>
+				<td><input type="date" name="dob" /></td>
+			</tr>
+			<tr>
+				<td>Enter Batting Average</td>
+				<td><input type="number" name="battingAvg" /></td>
+			</tr>
+			<tr>
+				<td>Enter Wickets Taken</td>
+				<td><input type="number" name="wickets" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Add Player" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
